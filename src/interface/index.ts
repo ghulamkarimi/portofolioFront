@@ -1,7 +1,8 @@
 export interface IServices{
     index?:number,
     title:string,
-    icon:string
+    icon:string,
+    technologies?:string[]
 
 }
 

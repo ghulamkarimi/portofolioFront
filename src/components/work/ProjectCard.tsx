@@ -5,6 +5,7 @@ import gitHupIcon from "../../assets/github.png";
 import { IProject } from "../../interface";
 import { NavLink } from "react-router-dom";
 
+
 interface IProjectsCardProps {
   project: IProject;
   index: number;
@@ -36,6 +37,7 @@ const ProjectCard: React.FC<IProjectsCardProps> = ({ project, index }: IProjects
           <div className="mt-5">
             <h3 className="text-white font-bold text-[24px]">{project.name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{project.description}</p>
+            
           </div>
           <div className="mt-4 flex flex-wrap gap-2">
             {project.tags.map((tag) => (

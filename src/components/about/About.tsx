@@ -19,17 +19,10 @@ const About = () => {
         className=" mt-4 text-secondary text-[17px] max-w-7xl leading-[30px] "
         variants={fadeIn("", "", 0.1, 1)}
       >
-        Hello! I am a newly certified web developer from DCI  specializing in the MERN
-        stack (MongoDB, Express.js, React.js, and Node.js). Throughout my
-        training, I have gained solid expertise in building modern web
-        applications and completed numerous projects that highlight my skills in
-        both frontend and backend technologies. I am passionate about creating
-        scalable and efficient solutions that are not only powerful but also
-        user-friendly. I am always motivated to keep learning and improving,
-        constantly seeking to stay up-to-date with the latest technologies to
-        meet the evolving demands of the industry. I look forward to applying my
-        skills in practice and collaborating with other developers, designers,
-        and product teams to bring innovative projects to life.
+        I am a certified web developer specializing in the MERN stack (MongoDB, Express.js, React.js, and Node.js). With a strong foundation in modern web technologies, I have successfully built and deployed scalable, high-performance applications that prioritize both functionality and user experience.
+        One of my key projects includes developing and launching the official website for A&O Autoservice, where I designed and implemented a fully functional, user-friendly, and secure platform tailored to the company's needs. This experience has strengthened my ability to create solutions that align with real-world business requirements while maintaining high standards in code quality, security, and performance optimization.
+        I am passionate about continuous learning and staying ahead of the latest trends in web development. My goal is to contribute to innovative and impactful projects, collaborating with developers, designers, and product teams to build cutting-edge digital solutions.
+        Lets connect and create something amazing together! 🚀
       </motion.p>
       <div className=" mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -42,8 +35,7 @@ const About = () => {
 
 
 
-const aboutWrapper = SectionWrapper({ Component: About , IdName: "about" });
+const aboutWrapper = SectionWrapper({ Component: About, IdName: "about" });
 export default aboutWrapper
 
 
- 

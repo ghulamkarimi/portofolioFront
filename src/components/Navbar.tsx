@@ -25,14 +25,14 @@ const Navbar = () => {
           }}
         >
 
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex bg-white bg-opacity-30 rounded-xl p-2'>
             Ghulam Karimi&nbsp;
             <span className='sm:block hidden'> | web developer</span>
 
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-10 bg-white bg-opacity-30 rounded-xl p-2'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}

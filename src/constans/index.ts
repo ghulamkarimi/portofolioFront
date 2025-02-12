@@ -20,7 +20,7 @@ import htmlIcon from "../assets/company/html.png"
 import reactTs from "../assets/company/reactTs.png"
 import nodeJs from "../assets/company/nodeJs.jpg"
 import cryptoBild from "../assets/cryptoBild.png"
-import aehBild from "../assets/aeh.png"
+
 
 
 
@@ -44,16 +44,42 @@ import aehBild from "../assets/aeh.png"
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Web Development",
       icon: web,
+      technologies: [
+        "HTML", 
+        "CSS", 
+        "JavaScript", 
+        "TypeScript", 
+        "React.js", 
+        "Next.js", 
+        "Node.js", 
+        "Express.js", 
+        "MongoDB"
+      ]
     },
-  
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Frontend Development",
+      icon: web,
+      technologies: ["React.js", "Next.js", "Tailwind CSS", "Bootstrap", "Redux Toolkit"]
     },
-  
+    {
+      title: "Backend Development",
+      icon: backend,
+      technologies: ["Node.js", "Express.js", "MongoDB", "SQL", "REST APIs"]
+    },
+    {
+      title: "Full Stack Development",
+      icon: backend,
+      technologies: ["MERN Stack", "Next.js", "API Integration", "Authentication"]
+    },
+    {
+      title: "DevOps & Deployment",
+      icon: backend,
+      technologies: ["NGINX", "Linux Server", "Cloud Deployment"]
+    }
   ];
+  
   
   const technologies = [
     {
