@@ -29,7 +29,7 @@ export const ContactProvider: React.FC<{ children: ReactNode }> = ({
   const sendContact = async (newContact: IContact) => {
     try {
       const response = await axios.post(
-        "https://portfolio-db.khalil-dev.me/contact/send",
+        "http://localhost:5200/contact/send",
         newContact
       );
       console.log("Response:", response.data);

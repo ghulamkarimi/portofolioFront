@@ -63,9 +63,10 @@ const ComputerCanvas = () => {
         }
       >
         <OrbitControls
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
           enableZoom={false}
+          enableRotate={true}
+          maxPolarAngle={Math.PI} // Ermöglicht eine 360°-Drehung
+          minPolarAngle={0} // Erlaubt das Betrachten von oben und unten
         />
         <Computers isMobile={isMobile} />
       </Suspense>

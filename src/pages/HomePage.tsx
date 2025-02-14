@@ -5,7 +5,6 @@ import {
   Experience,
   Tech,
   Works,
-  Feedbacks,
   Contact,
   StarsCanvas,
 } from "../components";
@@ -26,7 +25,7 @@ const HomePage = () => {
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
+    
       <div className="relative z-0">
         <Contact />
         <StarsCanvas /> 

@@ -40,5 +40,5 @@ import ProjectCard from "./ProjectCard";
   );
 };
 
-export default SectionWrapper({ Component: Works, IdName: "" });
+export default SectionWrapper({ Component: Works, IdName: "work" });
 

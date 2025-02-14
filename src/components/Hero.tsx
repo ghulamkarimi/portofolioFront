@@ -22,7 +22,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-     <div className=" w-full  h-full absolute top-16 ">
+     <div className=" w-full  h-full absolute top-32 ">
          
      <ComputersCanvas />
      </div>

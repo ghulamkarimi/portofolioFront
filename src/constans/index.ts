@@ -1,7 +1,6 @@
 
 import web from "../assets/web.png"
 import backend from "../assets/backend.png"
-
 import  html  from "../assets/tech/html.png"; 
 import  css  from "../assets/tech/css.png";
 import  git  from "../assets/tech/git.png";
@@ -20,13 +19,9 @@ import htmlIcon from "../assets/company/html.png"
 import reactTs from "../assets/company/reactTs.png"
 import nodeJs from "../assets/company/nodeJs.jpg"
 import cryptoBild from "../assets/cryptoBild.png"
+import aundoBild from "../assets/aundoBild.png"
 
 
-
-
-
-
-  
   export const navLinks = [
     {
       id: "about",
@@ -191,78 +186,44 @@ import cryptoBild from "../assets/cryptoBild.png"
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
+  
   
   const projects = [
     {
       id: "1",
-      name: "crypto-curruncy",
+      name: "crypto-currency",
       description:
-        "Web-based platform that allows users to search, Coin , and analyse Chart .",
+        "Web-based platform that allows users to search, Coin, and analyze Charts.",
       tags: [
-        {
-          id: "1",
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          id: "2",
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          id: "3",
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-        {
-          id: "4",
-          name: "nodejs",
-          color: "yellow-text-gradient",
-        },
-        {
-          id: "5",
-          name: "typescript",
-          color: "purple-text-gradient",
-        },
-        {
-          id: "6",
-          name: "redux/toolkit",
-          color: "red-text-gradient",
-        }
+        { id: "1", name: "react", color: "blue-text-gradient" },
+        { id: "2", name: "mongodb", color: "green-text-gradient" },
+        { id: "3", name: "tailwind", color: "pink-text-gradient" },
+        { id: "4", name: "nodejs", color: "blue-text-gradient" },
+        { id: "5", name: "typescript", color: "green-text-gradient" },
+        { id: "6", name: "redux/toolkit", color: "pink-text-gradient" },
       ],
-      image: cryptoBild, 
-      source_code_link: "https://github.com/Khalilo1902?tab=repositories",
-      link:"https://khalil-dev.me",
+      image: cryptoBild,
+      source_code_link: "https://github.com/ghulamkarimi/crypto",
+      link: "",
     },
-
-  
+    {
+      id: "2",
+      name: "Aundo AutoService",
+      description:
+        "A professional auto service platform for booking appointments, car rentals, and dealership management.",
+      tags: [
+        { id: "1", name: "next.js", color: "blue-text-gradient" },
+        { id: "2", name: "typescript", color: "green-text-gradient" },
+        { id: "3", name: "tailwind", color: "pink-text-gradient" },
+        { id: "4", name: "mongodb", color: "blue-text-gradient" },
+        { id: "5", name: "shadcn/ui", color: "green-text-gradient" },
+        { id: "6", name: "redux/toolkit", color: "pink-text-gradient" },
+      ],
+      image:aundoBild , // Ersetze mit dem tatsächlichen Bild
+      source_code_link: "", // Falls du den Quellcode hast, füge den Link hier ein
+      link: "https://www.aundoautoservice.de", // Falls die Website live ist
+    },
   ];
   
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
