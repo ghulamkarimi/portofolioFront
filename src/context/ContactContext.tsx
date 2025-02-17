@@ -29,7 +29,7 @@ export const ContactProvider: React.FC<{ children: ReactNode }> = ({
   const sendContact = async (newContact: IContact) => {
     try {
       const response = await axios.post(
-        "https://api.ai-webkraft.de/contact/send", // ✅ HTTPS & vollständige Domain
+        "https://api.ai-webkraft.de/api/contact/send", // ✅ HTTPS & vollständige Domain
         newContact
       );
       console.log("Response:", response.data);
